@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>test</title>
+  <style>
+      .left-lable{
+          display: inline-block;
+          width: 50px;
+        }
+  </style>
+</head>
+<body>
+    <form action="/test/bay_value_condo.php" method="POST" style="width: 250px;">
+        <div><div class="left-lable">area:</div> <input type="text" name="area"/></div>
+        <div><div class="left-lable">dtf:</div> <input type="number" name="dtf" min="0"/></div>
+        <div><div class="left-lable">dtt:</div> 
+            <select  value="1" name="dtt">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+            </select>
+        </div>
+        <div><div class="left-lable">bds:</div> <input type="number" name="bds" min="0"/></div>
+        <div><div class="left-lable">bdsp:</div> <input type="number" name="bdsp" min="0"/></div>
+        <div><div class="left-lable">pr:</div> <input type="number" name="pr" min="0"/></div>
+        <div><div class="left-lable">tp:</div> <input type="number" step="0.01" name="tp" min="0"/></div>
+        <div><div class="left-lable">lv:</div> <input type="text" name="lv"/></div>
+        <button type="submit" style="width: 100%;">submit</button>
+    </form>
+</body>
+</html>
